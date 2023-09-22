@@ -3,7 +3,7 @@ const getRandomImageNumber = () => Math.floor(Math.random() * 1000) + 1;
 const cardsInfo = [
   {
     id: 1,
-    image: `https://picsum.photos/id/${getRandomImageNumber()}/200/300`,
+    image: `https://picsum.photos/id/10/200/300`,
     title: "Tourmaline & Eucalyptus Bar Soap",
     price: 12.0,
     amount: 0,
